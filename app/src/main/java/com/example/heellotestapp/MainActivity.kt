@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity() {
             val inputText2 : TextView = findViewById(R.id.inputText2)
             val num1: Int = inputText1.getText().toString().toInt()
             val num2: Int = inputText2.getText().toString().toInt()
-            //outputText1.text = (num1 / num2).toString()
-            //outputText2.text = (num1 % num2).toString()
             val outputText1 : TextView = findViewById(R.id.outputText1)
             val outputText2 : TextView = findViewById(R.id.outputText2)
             outputText1.setText((num1 / num2).toString())
